@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd dither && npm install && npm run build",
+  "outputDirectory": "dither/dist",
+  "devCommand": "cd dither && npm run dev",
+  "installCommand": "cd dither && npm install",
+  "rewrites": [
+    {
+      "source": "/dither/:path*",
+      "destination": "/dither/:path*"
+    }
+  ]
+}
