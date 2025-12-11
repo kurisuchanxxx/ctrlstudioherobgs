@@ -7,9 +7,16 @@ Collection of animated hero backgrounds for Webflow integration via iframe.
 ### [Dither](./dither)
 Full-screen animated dither effect with mouse interaction.
 
-- **Demo**: [Live on Vercel](https://ctrlstudioherobgs.vercel.app/dither)
-- **Tech**: React, Three.js, WebGL shaders
+- **Demo**: [Live on Vercel](https://ctrlstudioherobgs.vercel.app)
+- **Tech**: React, Three.js, WebGL shaders, @react-three/fiber
 - **Features**: Animated waves, dithering effect, mouse interaction
+
+### [Liquid Ether](./liquid-ether)
+Fluid dynamics simulation with interactive mouse effects.
+
+- **Demo**: [Live on Vercel](https://ctrlstudioherobgs.vercel.app)
+- **Tech**: React, Three.js, WebGL fluid simulation
+- **Features**: Fluid dynamics, customizable colors, auto-demo mode, touch support
 
 ## Development
 
@@ -49,6 +56,10 @@ Use iframe embedding in Webflow:
 ```
 ctrlstudioherobgs/
 ├── dither/          # Dither effect background
+│   ├── src/
+│   ├── package.json
+│   └── vite.config.js
+├── liquid-ether/    # Fluid simulation background
 │   ├── src/
 │   ├── package.json
 │   └── vite.config.js
