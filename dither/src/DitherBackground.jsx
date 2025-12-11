@@ -271,7 +271,7 @@ export default function Dither({
   pixelSize = 2,
   disableAnimation = false,
   enableMouseInteraction = true,
-  mouseRadius = 1
+  mouseRadius = 0.3
 }) {
   return (
     <Canvas
